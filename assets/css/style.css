@@ -14,10 +14,6 @@ a {
   color: inherit;
 }
 
-a:hover {
-  color: #3a3aa1;
-}
-
 hr {
   margin: 1.5rem 0;
   border-top: 1px solid #d4d4d4;
@@ -84,10 +80,18 @@ h5 {
   border-radius: 25%;
 }
 
+.intro a:hover {
+  color: #3a3aa1;
+}
+
 .iconify {
   font-size: 1rem;
   vertical-align: middle;
   margin-right: 5px;
+}
+
+.work a:hover {
+  color: #3a3aa1;
 }
 
 .skill-title {
@@ -97,3 +101,8 @@ h5 {
 .project-title {
   color: #5353b9;
 }
+
+#projects a:hover {
+  color: #3a3aa1;
+}
+

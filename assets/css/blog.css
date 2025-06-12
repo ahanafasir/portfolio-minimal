@@ -84,3 +84,7 @@ a {
   color: #888;
   margin-bottom: 0.5rem;
 }
+
+#projects a:hover {
+  color: #3a3aa1;
+}
