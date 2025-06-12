@@ -1,0 +1,86 @@
+/* Inherit and reuse base styling from index.css */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  line-height: 2.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  background-image: linear-gradient(45deg, #f573c3 0%, #5151c6 100%);
+  background-size: cover;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 25rem;
+  width: 100%;
+}
+
+.top-nav {
+  margin-bottom: 1rem;
+}
+
+.nav-button {
+  background-color: #5151c6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #3a3aa1;
+}
+
+.info-card {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.blog-title {
+  color: #5151c6;
+  margin-bottom: 1.5rem;
+}
+
+.blog-entry {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.blog-entry h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-entry h3 a {
+  color: #5151c6;
+}
+
+.blog-meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
