@@ -106,3 +106,62 @@ h5 {
   color: #3a3aa1;
 }
 
+/* darkmode code */
+
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.hero.dark {
+  background-image: none;
+  background-color: #121212;
+}
+
+.info-card.dark {
+  background-color: #1e1e1e;
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.05);
+}
+
+a.dark:hover {
+  color: #90cdf4;
+}
+
+.skill-title,
+.project-title {
+  color: #8ab4f8;
+}
+
+/* Optional: transition for smooth effect */
+body, .info-card {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Ensure the theme button matches the Read button */
+#theme-toggle.nav-button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #5151c6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#theme-toggle.nav-button:hover {
+  background-color: #3a3aa1;
+}
