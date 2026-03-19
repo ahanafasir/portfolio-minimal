@@ -12,7 +12,7 @@
   padding: 0 10px;
 }
 
-.maintenance-banner {
+/* .maintenance-banner {
   font-size: 0.9rem;
   background-color: #ffcc00;
   color: #000;
@@ -20,12 +20,12 @@
   border-radius: 6px;
   font-weight: bold;
   white-space: nowrap;
-}
+} */
 
 body {
   font-family: "Open Sans", sans-serif;
   color: black;
-  line-height: 2.2;
+  line-height: 1.98;
 }
 
 a {
